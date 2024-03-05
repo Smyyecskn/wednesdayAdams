@@ -1,0 +1,39 @@
+@import "./scss/reset", "./scss/variables.scss";
+body {
+  font-family: $font-family;
+  line-height: 1;
+  color: $text-color;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+.home {
+  margin: 15rem 40rem;
+
+  &__name {
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    border-bottom: 5px solid white;
+  }
+}
+.about__bio-image h2 {
+  color: orangered;
+  text-align: center;
+  margin-top: 20rem;
+}
+.about__job {
+  margin-top: 5rem;
+  background-color: rgb(93, 87, 87);
+  border: 2px solid red;
+}

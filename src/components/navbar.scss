@@ -1,0 +1,30 @@
+@import "../scss/variables.scss", "../scss/reset";
+.nav {
+  // border: 2px solid red;
+  height: 10vh;
+  padding: 1rem;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__item {
+    display: inline;
+    padding: 1rem;
+  }
+
+  &__link {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $font-family;
+    transition: all 1s;
+
+    &:hover {
+      color: blue;
+    }
+    &--active {
+      color: $secondary-color;
+    }
+  }
+}
